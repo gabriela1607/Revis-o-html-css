@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>revisão HTML e CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+    <nav>
+      <a href="#listas">listas</a>
+      <a href="#tabelas">tabelas</a>
+      <a href="#formularios">formulários</a>
+    </nav>
+   </header> 
+
+   <main>
+      <section id="listas">
+        <h2>listas</h2>
+
+        <ol>
+          <li> Mac </li>
+          <li> Boca rosa </li>
+          <li> Marimaria </li>
+          <li> Rubyrose</li>
+          <li> Quem disse berenice </li>
+        </ol>
+
+        <ul>
+          <li>Monte carlo</li>
+          <li>Tiffany</li>
+          <li>Vivara</li>
+          <li>Pandora</li>
+          <li>Morana</li>
+        </ul>
+      </section>
+
+      <section id="tabelas">
+        <h2>livros</h2>
+        <table>
+          <tr>
+            <th>Autores</th>
+            <th>Livro</th>
+            <th>Preço</th>
+          </tr>
+          
+           <tr> 
+            <td>Markus Zusak</td>
+            <td>A menina que roubava livros</td>
+            <td>R$45.18</td>
+           </tr>
+          
+          <tr>
+            <td>A. J. Finn</td>
+            <td>A mulher na janela</td>
+            <td>R$20.99</td>
+          </tr>
+          <tr>
+            <td>Alex Michaelides</td>
+            <td>A paciente silenciosa</td>
+            <td>R$41.90</td>
+          </tr>
+        </table>
+
+      </section>
+      <section id="formularios">
+      <h2>formulários</h2>
+      <fieldset>
+        <legend>ficha de cadastro</legend>
+        <div>
+         <label for="nomecompleto">Nome completo:</label>
+          <input id="nomecompleto" type="text">
+        </div>
+
+        <div>
+          <label for="senha">digite sua senha:</label>
+             <input id="senha" type="password">
+        </div>
+
+         <div>
+          <label for="e-mail">digite seu e-mail:</label>
+             <input id="e-mail" type="text">
+        </div>
+
+         <div>
+          <label for="datadenascimento">digite sua data de nascimento:</label>
+             <input id="datadenascimento" type="date">
+        </div>
+
+         <div>
+          <label for="CPF">digite seu CPF:</label>
+             <input id="CPF" type="text">
+        </div>
+      </fieldset>
+      
+      </section>
+   </main>
+</body>
+</html>
